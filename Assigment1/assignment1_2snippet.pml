@@ -13,8 +13,4 @@ active [2] proctype user() {
   flag[_pid] = 0; //unset flag for current process
   goto again //do loop again
 }
-
-
-/*
-Scenarios: 
-*/
+

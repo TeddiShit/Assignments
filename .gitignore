@@ -1,3 +1,18 @@
+##SPIN
+_spin_nvr.tmp
+*.d
+*.dbg
+*.spd
+*.dot
+pan.b
+pan.c
+pan.exe
+pan.h
+pan.m
+pan.p
+pan.t
+
+
 #################
 ## Eclipse
 #################

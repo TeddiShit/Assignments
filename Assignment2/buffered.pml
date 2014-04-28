@@ -29,8 +29,7 @@ active proctype BufferHandlerIn() {
 	do
   	::
 		bufferIn ? data;			//wait for data from writer
-		fillCount < BUFFERSIZE; 	//wait for space in buffer
-		 
+		fillCount < BUFFERSIZE; 	//wait for space in buffer		 
 		buffer[bufferEnd] = data;	//place data in next empty space
 		
 		bufferEnd = (bufferEnd + 1) % BUFFERSIZE;
